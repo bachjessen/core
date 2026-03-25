@@ -1854,6 +1854,8 @@ build.json @home-assistant/supervisor
 /tests/components/victron_remote_monitoring/ @AndyTempel
 /homeassistant/components/vilfo/ @ManneW
 /tests/components/vilfo/ @ManneW
+/homeassistant/components/visualizer_coffee/ @bachjessen
+/tests/components/visualizer_coffee/ @bachjessen
 /homeassistant/components/vivotek/ @HarlemSquirrel
 /tests/components/vivotek/ @HarlemSquirrel
 /homeassistant/components/vizio/ @raman325

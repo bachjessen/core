@@ -1,0 +1,12 @@
+{
+  "domain": "visualizer_coffee",
+  "name": "Visualizer Coffee",
+  "codeowners": ["@bachjessen"],
+  "config_flow": true,
+  "dependencies": ["application_credentials"],
+  "documentation": "https://www.home-assistant.io/integrations/visualizer_coffee",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "quality_scale": "internal",
+  "requirements": ["python-visualizer-coffee==0.1.0"]
+}

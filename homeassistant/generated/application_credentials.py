@@ -43,6 +43,7 @@ APPLICATION_CREDENTIALS = [
     "teslemetry",
     "tibber",
     "twitch",
+    "visualizer_coffee",
     "volvo",
     "watts",
     "weheat",
