@@ -2683,6 +2683,9 @@ python-technove==2.0.0
 # homeassistant.components.telegram_bot
 python-telegram-bot[socks]==22.6
 
+# homeassistant.components.visualizer_coffee
+python-visualizer-coffee==0.1.0
+
 # homeassistant.components.vlc
 python-vlc==3.0.18122
 

@@ -1,19 +1,12 @@
 """API for Visualizer Coffee integration bound to Home Assistant OAuth."""
 
-from asyncio import run_coroutine_threadsafe
-
 from aiohttp import ClientSession
-import my_pypi_package
+import visualizer_coffee
 
-from homeassistant.core import HomeAssistant
 from homeassistant.helpers import config_entry_oauth2_flow
 
-# TODO the following two API examples are based on our suggested best practices
-# for libraries using OAuth2 with requests or aiohttp. Delete the one you won't use.
-# For more info see the docs at https://developers.home-assistant.io/docs/api_lib_auth/#oauth2.
 
-
-class AsyncConfigEntryAuth(my_pypi_package.AbstractAuth):
+class AsyncConfigEntryAuth(visualizer_coffee.AbstractAuth):
     """Provide NEW_NAME authentication tied to an OAuth2 based config entry."""
 
     def __init__(
