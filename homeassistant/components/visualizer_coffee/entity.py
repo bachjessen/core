@@ -22,6 +22,14 @@ class visualizer_coffee(CoordinatorEntity):
 
         return DeviceInfo(
             name=self.coordinator.config_entry.title or self.Default_name,
+            configuration_url="https://visualizer.coffee/profile/edit",
             manufacturer="visualizer.coffee",
             identifiers={(DOMAIN, self.coordinator.config_entry.entry_id)},
+            serial_number=self.coordinator.data.get("account_name")
+            if self.coordinator.data
+            else None,
         )
+
+    def _handle_coordinator_update(self) -> None:
+        """Handle updated data from the coordinator."""
+        self.async_write_ha_state()
